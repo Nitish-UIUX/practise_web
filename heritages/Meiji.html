@@ -6,16 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meiji-jingū 💘 </title>
     <style>
-       body {
-            font-family: Arial, sans-serif;
-            padding: 20px;
-            padding-top: 60px;
-            background-size:contain;
-            background-image: url('bgi3.png');
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-position: absolute;
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
         }
+
 
         h1 {
             color: #485e3e;
@@ -34,7 +30,10 @@
 
         .content {
             max-width: 800px;
-            margin: auto;
+            margin: 0 auto;
+            padding: 50px;
+
+
         }
 
         .image-wrapper {
@@ -90,7 +89,7 @@
         }
 
         nav ul li a {
-            color:black;
+            color: black;
             /* Link text color */
             text-decoration: none;
             /* Remove underline */
@@ -104,12 +103,20 @@
             background-color: #ff9933;
             /* Lighter orange background color on hover */
         }
+
+        .nitish {
+            background-image: url('bgi3.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }
     </style>
 </head>
 
 <body>
     <!-- <div class="bg-image"></div> -->
-
+    <div class="nitish">
 
         <nav>
             <ul>
@@ -181,6 +188,7 @@
                     information provided.</p>
             </section>
         </footer>
+    </div>
 </body>
 
 </html>
